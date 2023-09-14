@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+#header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 3px;
+    margin: auto;
+    text-align: center;
+    width:100%;
+    display: block;
+    position: fixed;
+    top: 0;
+    /* background-color: white; */
+}
+.headli{
+    width: 1080px;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    margin:auto;
+}
+#rogo{
+    width: 114px;
+    height: auto;
+}
+a{
+    position: relative;
+    right: 220px;
+    display: inline-block;
+    padding-top: 4px;
+}
+ul, li{
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+}
+li{
+    position: relative;
+    left: 100px;
+    padding-left:13px;
+    padding-right:13px;
+}
+li:nth-child(6){
+    background-color: #fede22;
+    border-radius: 100px;
+    padding:13px 18px 13px 18px;
+}
+.lang-icon{
+    width:20px;
+    height:20px;
+}
+.main_intro{
+    width: 100px;
+    height: auto;
+    background-image:url(사진/배경.png) ;
+}
+#main_backimg{
+    width:1700px;
+    height: 883px;
+    background-color:#ffef6b;
+}
+.rion_backimg{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 87px;
+    width: 1199px;
+    height: 883px;
+    background-image:url(사진/배경.png);
+    background-repeat:no-repeat;
+}
